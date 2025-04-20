@@ -1,0 +1,53 @@
+.menu-page {
+    padding: 20px 0;
+  }
+  
+  .menu-page h1 {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  
+  .category-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+    flex-wrap: wrap;
+  }
+  
+  .category-tab {
+    background-color: transparent;
+    color: #333;
+    border: none;
+    padding: 8px 16px;
+    margin: 0 8px 8px 0;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+  }
+  
+  .category-tab:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .category-tab.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 24px;
+  }
+  
+  .loading, .error, .no-items {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 1.2rem;
+  }
+  
+  .error {
+    color: #f44336;
+  }
+  
